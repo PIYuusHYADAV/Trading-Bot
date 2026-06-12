@@ -1,0 +1,38 @@
+2026-06-12 11:37:49,742 | INFO | Place order
+2026-06-12 11:38:07,856 | INFO | Order Request: USDBTC BUY MARKET 2000 None
+2026-06-12 11:38:07,857 | INFO | Sending order to Binance: {'symbol': 'USDBTC', 'side': 'BUY', 'type': 'MARKET', 'quantity': '2000', 'timestamp': 1781244487856, 'signature': '305da22819fb148e8ef1205e0d5ef69989a2dded60aa14959cb52caa7584af39'}
+2026-06-12 11:38:08,121 | INFO | Binance Response: {"code":-1121,"msg":"Invalid symbol."}
+2026-06-12 11:43:13,381 | INFO | Place order
+2026-06-12 11:43:23,862 | INFO | Order Request: USDBTC BUY MARKET 0.0002 None
+2026-06-12 11:46:04,457 | INFO | Place order
+2026-06-12 11:46:14,842 | INFO | Order Request: USDBTC BUY MARKET 0.00001 None
+2026-06-12 11:46:14,843 | INFO | Sending request to Binance {'symbol': 'USDBTC', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.00001', 'timestamp': 1781244974843, 'signature': 'd815c235e952a2ab57772c3f05dd483493267f39a52f53e8a423c819564f83b5'}
+2026-06-12 11:46:15,479 | INFO | Response of Binace {'code': -1121, 'msg': 'Invalid symbol.'}
+2026-06-12 11:48:20,297 | INFO | Place order
+2026-06-12 11:48:36,736 | INFO | Order Request: BTCUSDT BUY MARKET 0.001 None
+2026-06-12 11:48:36,737 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781245116736, 'signature': '13b9f03baeda3329e791398495ad0e6f135cb79f9ad543fb43561c4c859437bd'}
+2026-06-12 11:48:37,817 | INFO | Response of Binace {'code': -2019, 'msg': 'Margin is insufficient.'}
+2026-06-12 11:49:09,579 | INFO | Place order
+2026-06-12 11:49:21,609 | INFO | Order Request: BTCUSDT BUY MARKET 0.000001 None
+2026-06-12 11:49:21,610 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.000001', 'timestamp': 1781245161609, 'signature': 'a2e8c79ba46c7bd5d31b385b9dcb0dc1714196afa351b9185e2f85c324870e03'}
+2026-06-12 11:49:22,880 | INFO | Response of Binace {'code': -1111, 'msg': 'Precision is over the maximum defined for this asset.'}
+2026-06-12 11:49:33,157 | INFO | Place order
+2026-06-12 11:49:45,249 | INFO | Order Request: BTCUSDT BUY MARKET 0.00001 None
+2026-06-12 11:49:45,249 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.00001', 'timestamp': 1781245185249, 'signature': 'ccd4bbf9a34b686801b23478d9954f2e1d1513651aa9fddd7353b552aed057a7'}
+2026-06-12 11:49:45,782 | INFO | Response of Binace {'code': -1111, 'msg': 'Precision is over the maximum defined for this asset.'}
+2026-06-12 11:49:49,526 | INFO | Place order
+2026-06-12 11:50:00,840 | INFO | Order Request: BTCUSDT BUY MARKET 0.0001 None
+2026-06-12 11:50:00,841 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0001', 'timestamp': 1781245200840, 'signature': '87f58688e55da98e56e2bc798a03724a9a0afbf882de381dd6eb067849358c84'}
+2026-06-12 11:50:01,118 | INFO | Response of Binace {'code': -4164, 'msg': "Order's notional must be no smaller than 50 (unless you choose reduce only)."}
+2026-06-12 11:50:24,802 | INFO | Place order
+2026-06-12 11:50:37,659 | INFO | Order Request: BTCUSDT BUY MARKET 0.0010 None
+2026-06-12 11:50:37,659 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0010', 'timestamp': 1781245237659, 'signature': 'dde8bb43214db3d9eb590da10c986197612b1a3d037c23e0032b090aeabab9f1'}
+2026-06-12 11:50:38,292 | INFO | Response of Binace {'code': -2019, 'msg': 'Margin is insufficient.'}
+2026-06-12 11:50:50,012 | INFO | Place order
+2026-06-12 11:51:03,958 | INFO | Order Request: BTCUSDT BUY MARKET 0.0005 None
+2026-06-12 11:51:03,958 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0005', 'timestamp': 1781245263958, 'signature': 'e1af97dd636f7608ce47a31d02c5e968b55c124880f0341a358d9acfa2fbdfd1'}
+2026-06-12 11:51:04,830 | INFO | Response of Binace {'code': -4164, 'msg': "Order's notional must be no smaller than 50 (unless you choose reduce only)."}
+2026-06-12 11:55:43,816 | INFO | Place order
+2026-06-12 11:55:55,059 | INFO | Order Request: BTCUSDT BUY MARKET 0.0007 None
+2026-06-12 11:55:55,060 | INFO | Sending request to Binance {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.0007', 'timestamp': 1781245555060, 'signature': 'dbad3a03583307fb8d5fc1c96076e80d482cf71984901078f7a3a55a8f2ef057'}
+2026-06-12 11:55:55,892 | INFO | Response of Binace {'code': -4164, 'msg': "Order's notional must be no smaller than 50 (unless you choose reduce only)."}
